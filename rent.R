@@ -3,10 +3,10 @@ library(dplyr)
 
 ########## Data Loading ##################
 
-rent_1br = read.csv("1br.csv")
-rent_2br = read.csv("2br.csv")
-rent_3br = read.csv("3br.csv")
-rent_4br = read.csv("4br+.csv")
+rent_1br = read.csv("1br.csv")  # Rent data for 1 Bedroom dwellings
+rent_2br = read.csv("2br.csv")  # Rent data for 2 Bedroom dwellings
+rent_3br = read.csv("3br.csv")  # Rent data for 3 Bedroom dwellings
+rent_4br = read.csv("4br+.csv") # Rent data for 4+ Bedroom dwellings
 
 ############### Data Cleaning ################
 
